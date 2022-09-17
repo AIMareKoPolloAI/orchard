@@ -7,6 +7,11 @@ and this project adheres to Rust's notion of
 
 ## [Unreleased]
 
+### Added
+- Feature `encrypt-to-recipient`:
+  - an implementation of the `zcash_note_encryption::PayloadEncryptionDomain`
+    trait for `OrchardDomain`.
+
 ## [0.3.0] - 2022-10-19
 ### Added
 - `orchard::Proof::add_to_batch`
